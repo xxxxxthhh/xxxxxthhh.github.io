@@ -74,9 +74,9 @@
       <category term="今日有书读" scheme="http://yoursite.com/categories/%E4%BB%8A%E6%97%A5%E6%9C%89%E4%B9%A6%E8%AF%BB/"/>
     
     
-      <category term="读书" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6/"/>
-    
       <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="读书" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
@@ -98,9 +98,9 @@
       <category term="今日有书读" scheme="http://yoursite.com/categories/%E4%BB%8A%E6%97%A5%E6%9C%89%E4%B9%A6%E8%AF%BB/"/>
     
     
-      <category term="读书" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6/"/>
-    
       <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="读书" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
@@ -172,11 +172,11 @@
       <category term="Git&amp;GitHub" scheme="http://yoursite.com/categories/Git-GitHub/"/>
     
     
+      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
       <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
     
       <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
-    
-      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
