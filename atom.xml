@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-29T12:46:58.632Z</updated>
+  <updated>2019-05-08T09:27:38.911Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>吴恩达机器学习课程笔记 - week1</title>
+    <link href="http://yoursite.com/2019/05/08/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0-week1/"/>
+    <id>http://yoursite.com/2019/05/08/吴恩达机器学习课程笔记-week1/</id>
+    <published>2019-05-08T06:48:06.000Z</published>
+    <updated>2019-05-08T09:27:38.911Z</updated>
+    
+    <content type="html"><![CDATA[<center>之前刷了吴恩达课程的视频，把笔记整理一下，慢慢更新</center><a id="more"></a><h1 id="绪论：初识机器学习"><a href="#绪论：初识机器学习" class="headerlink" title="绪论：初识机器学习"></a>绪论：初识机器学习</h1><h2 id="什么是机器学习"><a href="#什么是机器学习" class="headerlink" title="什么是机器学习"></a>什么是机器学习</h2><p>一个程序从经验<strong>E</strong>中学习，解决任务<strong>T</strong>，达到性能量度<strong>P</strong>，当且仅当有了经验<strong>E</strong>后，经过<strong>P</strong>评判，程序在处理任务<strong>T</strong>时的性能有所提升。</p><p>简单来说，通过投喂数据，教会机器使用算法解决问题。</p><h2 id="监督学习"><a href="#监督学习" class="headerlink" title="监督学习"></a>监督学习</h2><p>数据集包括“正确答案”，根据样本学习进行预测。</p><p>问题包括<strong>分类</strong>与<strong>回归</strong></p><h2 id="无监督学习"><a href="#无监督学习" class="headerlink" title="无监督学习"></a>无监督学习</h2><p>给算法大量无标签数据，从中分析出某种结构。比如对数据进行<strong>聚类</strong></p><h1 id="单变量线性回归"><a href="#单变量线性回归" class="headerlink" title="单变量线性回归"></a>单变量线性回归</h1><h2 id="模型表示"><a href="#模型表示" class="headerlink" title="模型表示"></a>模型表示</h2><p><strong>回归问题</strong>：根据之前的数据预测出一个准确的输出值</p><p><img src="https://raw.githubusercontent.com/xxxxxthhh/pic_go/master/%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B.png" alt=""></p><p>如图所示为预测房屋价格算法的流程，将训练数据集投入学习算法，输出一个函数 <em>h</em>（意为 <em>hypothesis</em> 假设），该函数可根据输入的房屋面积预测售价。</p><p>上述问题中有可能的 <em>h</em> 表达方式为：<br>$$<br>h_{\theta}(x)=\theta_{0}+\theta_{1} x<br>$$<br>只含有一个特征变量 <em>x</em>，因此该问题被称为<strong>单变量线性回归</strong>。</p><h2 id="代价函数-Cost-Function"><a href="#代价函数-Cost-Function" class="headerlink" title="代价函数 - Cost Function"></a>代价函数 - Cost Function</h2><p>上一小节我们知道了函数 <em>h</em> 的表达式，但是如何确定两个参数呢？</p><p><img src="https://raw.githubusercontent.com/xxxxxthhh/pic_go/master/%E5%8D%95%E7%BA%BF%E6%A8%A1%E5%9E%8B%E5%8F%82%E6%95%B0%E9%80%89%E6%8B%A9.png" alt=""></p><p>例如预测房价，使用预测函数，可以预测数据集外房屋的售价。但是首先该函数一定要适用于已知数据，而参数决定了我们得到的函数相对于训练集的准确程度，如下图所示，预测值（直线）与实际值（X）的差距就是<strong>建模误差（modeling error）</strong></p><p><img src="https://raw.githubusercontent.com/xxxxxthhh/pic_go/master/%E5%BB%BA%E6%A8%A1%E8%AF%AF%E5%B7%AE.png" alt=""></p><p>我们的目标就是通过调整参数，使得预测函数能拟合更多数据，从而使<strong>代价函数（Cost Function）</strong>最小：<br>$$<br>J\left(\theta_{0}, \theta_{1}\right)=\frac{1}{2 m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right)^{2}<br>$$<br>可以看出代价函数为建模误差的平方和，<em>m</em> 为训练集中实例的数量。</p><p>还有其他的<a href="https://baike.baidu.com/item/%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0/7048599?fr=aladdin" target="_blank" rel="noopener">代价函数</a>可以选择，但平方误差代价函数是解决回归问题的常用手段。</p><h2 id="代价函数的直观理解"><a href="#代价函数的直观理解" class="headerlink" title="代价函数的直观理解"></a>代价函数的直观理解</h2><p><img src="https://raw.githubusercontent.com/xxxxxthhh/pic_go/master/%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0%E7%9B%B4%E8%A7%82%E7%90%86%E8%A7%A3.png" alt=""></p><p>目标是使<strong>代价函数最小</strong>，根据代价函数 <em>J</em> 的三维图像，可知存在一点，在该点的两个参数的取值可使整体代价函数最小，可通过该图进行直观理解。</p><p><img src="https://raw.githubusercontent.com/xxxxxthhh/pic_go/master/%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0%E4%B8%89%E7%BB%B4%E5%9B%BE.png" alt=""></p><p>但是如果每次都通过画图看点来找最小值就太麻烦了，并且某些数据难以进行可视化，所以需要有效的<strong>算法</strong>来自动找出使代价函数 <em>J</em> 最小的参数<em>θ</em>。</p><h2 id="梯度下降-Gradient-Descent"><a href="#梯度下降-Gradient-Descent" class="headerlink" title="梯度下降 - Gradient Descent"></a>梯度下降 - Gradient Descent</h2><p>梯度下降是一个用来<strong>求函数最小值</strong>的算法，此处可用来求代价函数 <em>J</em> 的最小值。</p><p><img src="https://raw.githubusercontent.com/xxxxxthhh/pic_go/master/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D.png" alt=""></p><p>随机选取参数作为起始点，计算代价函数，然后下一组寻找能使代价函数下降最多的参数（就如同山顶下山，环顾四周，选择最陡峭下降最快速的方向），直到周围的参数无法使代价函数下降，此时达到了一个 <strong>局部最小值（local minimum）</strong>。<br>$$<br>\begin{array}{l}{\text { repeat until convergence }{ } \ {\theta_{j} :=\theta_{j}-\alpha \frac{\partial}{\partial \theta_{j}} J\left(\theta_{0}, \theta_{1}\right) \quad(\text { for } j=0 \text { and } j=1)} \ {}}\end{array}<br>$$<br>上述公式为 <strong>批量梯度下降</strong>（<em>batch gradient descent</em>），其中 <em>α</em> 是<strong>学习率</strong>（<em>learning rate</em>），即控制代价函数的下降速度。</p><p>在运算过程中，<strong>同时更新参数</strong>是梯度下降的一种常用方法。<br>$$<br>\begin{array}{l}{\text { Correct: Simultaneous update }} \ {\text { temp 0 } :=\theta_{0}-\alpha \frac{\partial}{\partial \theta_{0}} J\left(\theta_{0}, \theta_{1}\right)} \ {\text { temp } 1 :=\theta_{1}-\alpha \frac{\partial}{\partial \theta_{1}} J\left(\theta_{0}, \theta_{1}\right)} \ {\theta_{0} :=\operatorname{temp} 0} \ {\theta_{1} :=\operatorname{temp} 1}\end{array}<br>$$</p><h2 id="梯度下降的直观理解"><a href="#梯度下降的直观理解" class="headerlink" title="梯度下降的直观理解"></a>梯度下降的直观理解</h2><h3 id="公式理解"><a href="#公式理解" class="headerlink" title="公式理解"></a>公式理解</h3><p><img src="https://raw.githubusercontent.com/xxxxxthhh/pic_go/master/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%85%AC%E5%BC%8F%E7%90%86%E8%A7%A3.png" alt=""></p><p>实际上求导操作是计算该红色直线的斜率，该直线为正斜率，所以新的 <em>θ<sub>1</sub></em> 更新后等于 <em>θ<sub>1</sub></em> 减去一个正数乘以 <em>α</em> 。</p><p>如果 <em>θ</em> 初始化时就在最低点，意味着已经在局部最优点，切线导数为 0，<em>θ</em> 的值不会再改变，所以梯度下降算法其实什么也没做，这也是为什么保持学习速率 <strong><em>α</em> 不变</strong>，梯度下降<strong>依然可以收敛</strong>到局部最低点，而不需要边训练边改变参数。</p><p>实际上在接近最低点的过程中，导数值自动的变得越来越小（斜率越来越小），所以梯度下降的幅度也会减小，所以没有必要另外减小 <em>α </em>。</p><p><img src="https://raw.githubusercontent.com/xxxxxthhh/pic_go/master/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E7%90%86%E8%A7%A3.png" alt=""></p><h3 id="α-的取值"><a href="#α-的取值" class="headerlink" title="α 的取值"></a><em>α</em> 的取值</h3><p>如果太小了，即学习速率太小，结果就是只能这样像小宝宝一样一点点地挪动，去努力接近最低点，这样就需要很多步才能到达最低点，所以如果太小的话，可能会很慢，因为它会一点点挪动，它会需要很多步才能到达全局最低点。</p><p>如果太大，那么梯度下降法可能会越过最低点，甚至可能无法收敛，下一次迭代又移动了一大步，越过一次，又越过一次，一次次越过最低点，直到你发现实际上离最低点越来越远，所以，如果太大，它会导致无法收敛，甚至发散。 </p><h2 id="梯度下降的线性回归"><a href="#梯度下降的线性回归" class="headerlink" title="梯度下降的线性回归"></a>梯度下降的线性回归</h2><p>$$<br>\begin{array}{c|c}{\text { Gradient descent algorithm }} &amp; {\text { Linear Regression Model }} \ {\text { repeat until convergence }{ } &amp; {h_{\theta}(x)=\theta_{0}+\theta_{1} x} \ {\theta_{j} :=\theta_{j}-\alpha \frac{\partial}{\partial \theta_{j}} J\left(\theta_{0}, \theta_{1}\right)} &amp; {J(\theta)=\frac{1}{2 m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right)^{2}} \ {}}\end{array}<br>$$</p><p>了解了梯度下降算法，与之前线性回归想结合解决问题。</p><p>将梯度下降应用到线性回归当中，关键在于求出<strong>代价函数的导数</strong>，即：<br>$$<br>\frac{\partial}{\partial \theta_{j}} J\left(\theta_{0}, \theta_{1}\right)=\frac{\partial}{\partial \theta_{j}} \frac{1}{2 m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right)^{2}<br>$$</p><p>$$<br>\begin{aligned} J = 0时：\frac{\partial}{\partial \theta_{0}} J\left(\theta_{0}, \theta_{1}\right) &amp;=\frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right) \ J = 1时：\frac{\partial}{\partial \theta_{1}} J\left(\theta_{0}, \theta_{1}\right) &amp;=\frac{1}{m} \sum_{i=1}^{m}\left(\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right) \cdot x^{(i)}\right) \end{aligned}<br>$$</p><p>最后梯度下降算法改写为：<br>$$<br>\begin{array}{l}{\text { Repeat }{ } \ {\theta_{0} :=\theta_{0}-a \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right)} \ {\theta_{1} :=\theta_{1}-a \frac{1}{m} \sum_{i=1}^{m}\left(\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right) \cdot x^{(i)}\right)} \ {}}\end{array}<br>$$<br><strong>批量</strong>梯度下降的意思在于，每一步的求和运算，都用到了所有的训练样本，当然也有其它类型的梯度下降法，不是“批量”型的，不需要考虑全部数据集。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;center&gt;之前刷了吴恩达课程的视频，把笔记整理一下，慢慢更新&lt;/center&gt;
+    
+    </summary>
+    
+      <category term="python学习笔记" scheme="http://yoursite.com/categories/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="机器学习笔记" scheme="http://yoursite.com/categories/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="机器学习" scheme="http://yoursite.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>Python知识点回顾</title>
