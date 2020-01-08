@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kyle&#39;s Notes</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-08-19T11:46:19.788Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Kyle Xu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/08/19/hello-world/"/>
+    <id>http://yoursite.com/2018/08/19/hello-world/</id>
+    <published>2018-08-19T11:46:19.788Z</published>
+    <updated>2018-08-19T11:46:19.788Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>今日有书读之《钟鼓楼》</title>
+    <link href="http://yoursite.com/2018/05/06/%E4%BB%8A%E6%97%A5%E6%9C%89%E4%B9%A6%E8%AF%BB%E4%B9%8B%E3%80%8A%E9%92%9F%E9%BC%93%E6%A5%BC%E3%80%8B/"/>
+    <id>http://yoursite.com/2018/05/06/今日有书读之《钟鼓楼》/</id>
+    <published>2018-05-06T09:24:30.000Z</published>
+    <updated>2018-05-17T04:58:46.245Z</updated>
+    
+    <content type="html"><![CDATA[<center> “岁月有种不动声色的力量”</center><a id="more"></a><h1 id="关于本书"><a href="#关于本书" class="headerlink" title="关于本书"></a>关于本书</h1><p><img src="http://owks2feqx.bkt.clouddn.com/%E9%92%9F%E9%BC%93%E6%A5%BC%E5%B0%81%E9%9D%A2.jpg" alt="钟鼓楼-豆瓣"></p><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p><a href="https://item.jd.com/12233028.html" target="_blank" rel="noopener">钟鼓楼 - 京东</a></p><blockquote><p> 《钟鼓楼》是作者刘心武的第一部长篇小说，并由此荣获第二届茅盾文学奖。小说讲述了20世纪80年代初发生在北京钟鼓楼一带的故事，展示了极其丰富多彩的会场景，陈说着市井的悲欢、几代人的命运，穿越岁月烟尘，再看刘心武笔下的动人世相，犹如翻开了城市记忆的鲜活浮世绘……堪称一部洋溢着浓郁京味的现代《清明上河图》</p></blockquote><p>另外，<a href="https://book.douban.com/subject/1084078/" target="_blank" rel="noopener">豆瓣的简介(点我)</a>讲述的非常详细，基本概括了全部内容。建议看完全书以后再看，对梳理人物关系以及理解事件发展很有帮助。</p><h2 id="说两句"><a href="#说两句" class="headerlink" title="说两句"></a>说两句</h2><p>  本书以钟鼓楼下一个年轻人的婚姻为线，串起了四合院邻里之间的人生故事。故事从早到晚，发生于一天之中，限于篇幅，事件发生的很紧凑，一波未平一波又起，在不断的冲突中，各个角色的鲜明个性得以完全凸显，每个人都有了自己的“标签”。故事最后在暮色中的钟鼓楼收尾，从更高的角度来体现对“时间”的见证。</p><p>  先说一下我的阅读感受，在看到讲述四合院生活以及每个角色“支线故事”的时候觉得非常有趣，但是到了描写婚礼的各种流程与规矩的部分，内心产生了一种焦躁的不适感：一是流程确实过于繁琐，作者的描写让你觉得是在亲自操刀这些事情，难免陷入更深层的思考；其次则是有些条条框框，说好听点叫‘仪式感’，说不好听的就叫‘穷讲究’,放到现在属于应抛弃的糟粕(当然又有了新的讲究)…</p><p>  角色方面，每个人都有鲜明的特点，这也是在读书会讨论的时候大家说的比较多的地方，同样的情节，各有各的看法。比如在当时的时代情况下，如何评价慕樱这样的女性？如何评价她情感历程中的各种选择？姚向东是从此走上歪路还是只为了寻找刺激而偷表？…</p><p>  当时读到最后，意犹未尽，很想知道年轻人们的聚会会讨论些什么，最后开放式的结局让人畅想，后来发现本书成于1984年，作者并不是不想写，而是也不知道后面会发生什么，中国竟会产生如此巨大的变化(可以说超出当时人们想象力)，30多年后，书里那帮年轻人现在怎么样了？</p><h2 id="打个分"><a href="#打个分" class="headerlink" title="打个分"></a>打个分</h2><p>  7.5，推荐阅读。内容略显单薄，想深入了解就要靠自己的发散性思维了，读的过程中还是能学到很多。</p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>贴一张读书会小伙伴标注的四合院平面图。</p><p>四合院生活十分有趣，那里有钢筋水泥城市里逐渐消失的邻里关系，似乎永远不会乏味，没有互联网也可以过得很好。</p><p>另外，《钟鼓楼》也有翻拍的<a href="http://v.qq.com/detail/k/kfdh1yyiksnr72j.html?ptag=baidu_aladdin.tv" target="_blank" rel="noopener">电视剧(&lt;-点我)</a>，里面有很多熟悉的面孔，豆瓣评分比书还高，想更深了解的可以看一下。<br><img src="http://owks2feqx.bkt.clouddn.com/%E9%92%9F%E9%BC%93%E6%A5%BC%E5%9B%9B%E5%90%88%E9%99%A2%E5%B9%B3%E9%9D%A2%E5%9B%BE.jpg" alt="四合院"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;center&gt; “岁月有种不动声色的力量”&lt;/center&gt;
+    
+    </summary>
+    
+      <category term="今日有书读" scheme="http://yoursite.com/categories/%E4%BB%8A%E6%97%A5%E6%9C%89%E4%B9%A6%E8%AF%BB/"/>
+    
+    
+      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="读书" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日有书读之《智能时代》</title>
+    <link href="http://yoursite.com/2018/05/06/%E4%BB%8A%E6%97%A5%E6%9C%89%E4%B9%A6%E8%AF%BB%E4%B9%8B%E3%80%8A%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E3%80%8B/"/>
+    <id>http://yoursite.com/2018/05/06/今日有书读之《智能时代》/</id>
+    <published>2018-05-06T06:08:32.000Z</published>
+    <updated>2018-05-06T08:46:13.968Z</updated>
+    
+    <content type="html"><![CDATA[<center> 大数据和机器智能的出现，对我们的技术发展、商业和社会都会产生重大的影响。</center><a id="more"></a><h1 id="关于本书"><a href="#关于本书" class="headerlink" title="关于本书"></a>关于本书</h1><p><img src="http://owks2feqx.bkt.clouddn.com/%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3.jpg" alt="智能时代-封面"></p><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p><a href="https://item.jd.com/11953641.html" target="_blank" rel="noopener">智能时代 - 京东</a></p><p>本书作者是吴军博士，理工科的同学们应该都很熟悉了，他的作品深入浅出，将专业的东西讲的通俗易懂，其中《数学之美》《浪潮之巅》都是值得反复阅读的好书，当然这本《智能时代》也值得推荐，下面放一段的内容简介：</p><blockquote><p>  大数据和人工智能迅猛发展，对社会和商业的影响日益深刻，从学术界到企业界，智能化浪潮的来临，已经成为共识。可以比肩于大航海时期和工业革命的此次变革浪潮，必然会对我们的技术发展、商业和社会都会产生重大的影响。作者吴军在《智能时代：大数据与智能革命重新定义未来》中指出，首先，我们在过去被认为非常难以解决的问题，会因为大数据和机器智能的使用而迎刃而解，比如解决癌症个性化治疗的难题。同时，大数据和机器智能还会彻底改变未来时代的商业模式，很多传统的行业都将采用智能技术实现升级换代，同时改变原有的商业模式。大数据和机器智能对于未来社会的影响是全方位的。</p><p>  另一方面，智能化也会对整个社会带来巨大的冲击，尤其是在智能革命的初期。因此，在智能时代开始的时候，我们需要未雨绸缪，力争做控制世界的2%人，而不是被智能化浪潮淘汰。</p></blockquote><h2 id="说两句"><a href="#说两句" class="headerlink" title="说两句"></a>说两句</h2><p>“数据思维”、“大数据时代”，这些究竟意味着什么？数据为什么如此重要？数据有什么作用？大数据又是什么？如何获取足量有效的数据？得到数据后又如何应用？数据催生了哪些技术？数据时代会对各行各业产生什么影响？最后，我们应该怎样做？</p><p>作为一本科普读物，未涉及复杂的概念与公式，非相关专业的读者看起来基本没有障碍。书中从数据与知识的基本概念讲起，通过举例将不同的发展阶段联系起来，并过渡到在数据时代下作者对未来各个行业的展望。本书不仅仅是传递知识，重要的是获得面对数据的思维方式，并指导行动。</p><h2 id="打个分"><a href="#打个分" class="headerlink" title="打个分"></a>打个分</h2><p>习惯性的去豆瓣看了一下，竟然有8.5分（阅读感和内容相比《浪潮之巅》有差距），个人感觉应该在8分左右，给了4星，还是值得阅读。(后来看了一下，《数学之美》9.0，《浪潮之巅》9.2..)</p><h2 id="读书会分享提纲"><a href="#读书会分享提纲" class="headerlink" title="读书会分享提纲"></a>读书会分享提纲</h2><p>这本书是第一次参加读书会时的阅读书目，但是因为个人原因没有赶上，贴一下写好的提纲吧。</p><p><img src="http://owks2feqx.bkt.clouddn.com/%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E8%AF%BB%E4%B9%A6%E5%88%86%E4%BA%AB.jpg" alt="读书会分享"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;center&gt; 大数据和机器智能的出现，对我们的技术发展、商业和社会都会产生重大的影响。&lt;/center&gt;
+    
+    </summary>
+    
+      <category term="今日有书读" scheme="http://yoursite.com/categories/%E4%BB%8A%E6%97%A5%E6%9C%89%E4%B9%A6%E8%AF%BB/"/>
+    
+    
+      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="读书" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>译文集合</title>
+    <link href="http://yoursite.com/2018/01/06/%E8%AF%91%E6%96%87%E9%9B%86%E5%90%88/"/>
+    <id>http://yoursite.com/2018/01/06/译文集合/</id>
+    <published>2018-01-06T02:42:28.000Z</published>
+    <updated>2018-01-06T05:03:16.886Z</updated>
+    
+    <content type="html"><![CDATA[<center> 一点个人小爱好，不定期更新 </center><a id="more"></a><h1 id="译文说明"><a href="#译文说明" class="headerlink" title="译文说明"></a>译文说明</h1><ol><li><p>目前主要是自己比较感兴趣的技术类（python）文章，后面有可能翻一下比较好的新闻或者reddit的帖子。</p></li><li><p>文章达到一定数目再进行<strong>分类</strong>，当前以列表形式展示。</p></li><li><p>2018年目标翻译两篇<strong>财经类</strong>新闻（了解专业名词），读一份英文<strong>财报</strong>。</p></li></ol><h1 id="译文链接"><a href="#译文链接" class="headerlink" title="译文链接"></a>译文链接</h1><h2 id="Python随机森林"><a href="#Python随机森林" class="headerlink" title="Python随机森林"></a>Python随机森林</h2><p><a href="https://python.freelycode.com/contribution/detail/1065" title="Python随机森林 - CodeProject" target="_blank" rel="noopener"><strong>文章地址</strong> &lt;- 戳这</a></p><p>不多说了，直接引用原作者的介绍。</p><blockquote><p>随机森林是一种在集成学习中很受欢迎的算法，可用于分类和回归。这意味着随机森林中包括多种决策树，并将每个决策树结果的平均值作为随机森林的最终输出。决策树有一些缺点，比如训练集的过拟合导致很高的差异性，不过这在随机森林中已经可以通过Bagging(Bootstrap Aggregating)的帮助解决。因为随机森林实际上是由多种不同的决策树组成的，所以我们最好先了解一下决策树算法，然后再学习随机森林的相关知识。</p></blockquote><h2 id="如何创建你自己的区块链"><a href="#如何创建你自己的区块链" class="headerlink" title="如何创建你自己的区块链"></a>如何创建你自己的区块链</h2><p><a href="https://python.freelycode.com/contribution/detail/1078" title="如何创建你自己的区块链 Part1" target="_blank" rel="noopener"><strong>文章地址</strong> &lt;- 戳这</a></p><p>TL;DR:</p><blockquote><p>从一个<strong>较高的层次</strong>上来看，区块链是一个人人都可以参与并进行存储，查看，确认的数据库，而且数据永远不会被删除。从<strong>比较低的层次</strong>来说，只要这些特定的区块链允许，这些区块中的数据可以是任何东西。再往<strong>底层</strong>方面讲，在一个区块创建并链接到区块链之前，需要由区块链上的大多数人（通常称为节点）对其进行验证。<strong>“真正“的区块链</strong>是包含区块最多的那一条链，因为它被大多数节点验证为正确。这意味着如果一个节点尝试更改之前区块的数据，则较新的区块就不会被承认，而且节点也不会相信来自错误区块的数据。<br>如果你仍感到疑惑，不用担心，我也是花了很长时间才让自己搞明白。当然也要花更多时间写这篇文章，才能让一个对区块链一无所知的人有所了解。</p></blockquote><p>本文介绍了区块链的基本概念，以及用Python实现基本区块的功能。这篇文章是本系列的Part1，还有另外两篇，实现了一些高级功能，由其他译者翻译。</p><p>15年的时候，比特2000，莱特20…没把握住机会，看看现在的价格，唏嘘啊~</p><h2 id="Pipenv-Python开发工作流"><a href="#Pipenv-Python开发工作流" class="headerlink" title="Pipenv - Python开发工作流"></a>Pipenv - Python开发工作流</h2><p><a href="https://python.freelycode.com/contribution/detail/1089" title="Pipenv - Python开发工作流" target="_blank" rel="noopener"><strong>文章地址</strong> &lt;- 戳这</a></p><blockquote><p><strong>Pipenv - 官方推荐的的python包管理工具。</strong><br>Pipenv是一款旨在将所有包管理工具（如bundler, composer, npm, cargo, yarn等）的优点集中应用于python领域中的工具。它可以为你的项目<strong>自动创建和管理虚拟环境</strong>，并且在你安装/删除包时自动在Pipfile中添加/移除相应的包。它同时生成一个非常重要的Pipfile.lock文件，来保证所构建环境的确定性。</p></blockquote><p>当前使用<code>virtualenvwrapper</code>,需再次部署环境时可替换为<code>pipenv</code>。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;center&gt; 一点个人小爱好，不定期更新 &lt;/center&gt;
+    
+    </summary>
+    
+      <category term="译文列表" scheme="http://yoursite.com/categories/%E8%AF%91%E6%96%87%E5%88%97%E8%A1%A8/"/>
+    
+    
+      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="翻译" scheme="http://yoursite.com/tags/%E7%BF%BB%E8%AF%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2018新年计划</title>
+    <link href="http://yoursite.com/2018/01/05/2018%E6%96%B0%E5%B9%B4%E8%AE%A1%E5%88%92/"/>
+    <id>http://yoursite.com/2018/01/05/2018新年计划/</id>
+    <published>2018-01-05T08:23:55.000Z</published>
+    <updated>2018-01-05T14:15:26.261Z</updated>
+    
+    <content type="html"><![CDATA[<center> 又到了说这句话的时候：新的一年，新的开始。</center><a id="more"></a><h1 id="2017年总结"><a href="#2017年总结" class="headerlink" title="2017年总结"></a>2017年总结</h1><p>17年的元旦，刚考完研不久，从川大回来收拾了一下东西，休息两天就和Chloe去峨眉山跨年了。</p><p>回想18年的元旦，仿佛就在（是）昨天，研一上学期已经结束，考试顺利通过（祈祷数据库不要翻车…），项目稳步进行，和Chloe两个人在乐山愉快的吃了三天。</p><p>而这之间的一年时间里，有很多事情值得纪念。</p><h2 id="值得记录的事"><a href="#值得记录的事" class="headerlink" title="值得记录的事"></a>值得记录的事</h2><ul><li><p>1）完成<strong>毕业</strong>设计、论文，通过答辩</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">在科创实验室度过的三个月，在这感谢谭老师、严哥、浩文、张博的帮助。</span><br><span class="line">拿毕设报了 互联网+ 竞赛，拿了四川省二等奖</span><br><span class="line">申请了省大学生科创项目，修改论文，水了一篇期刊</span><br></pre></td></tr></table></figure></li><li><p>2）通过<strong>研究生</strong>复试，参加了实验室培训</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">总的来说，一波三折，但是结果能接受。</span><br><span class="line">想想考研的时候，每天不紧不慢的复习还有着肯定能上的迷之自信，有点想笑...</span><br><span class="line">有句话形容自己非常合适：懒散久了，稍微一努力就觉得自己在拼命...</span><br><span class="line">关于实验室培训，四月中旬开始，老师的讲解非常精彩，信息量大，每节课布置任务push进度（三天刷完codecademy的Python课程...），应该是17年水平进步最快的一段时间了</span><br></pre></td></tr></table></figure></li><li><p>3）9月-12月，每天至少练习<strong>口语</strong>半小时</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">这个要从研究生复试说起，面试的时候才发现说英语是这么TMD难...</span><br><span class="line">只学&apos;哑巴英语&apos;，过了四六级也没有什么卵用，和别人交流难道要靠成绩单？</span><br><span class="line">用某APP练了三个月，能/敢说了（然而不保证对），约外教小姐姐吃了顿火锅无障碍...</span><br></pre></td></tr></table></figure></li><li><p>4）参加锤子科技的<strong>发布会</strong>，见到了活的老罗；参加了腾讯全球合作伙伴大会</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">两个会连着，住了两天青旅，很有意思的体验，充满了“江湖气”</span><br><span class="line">大魔方门口黄牛不少，老罗的发布会真的当相声卖...</span><br><span class="line">看完发布会冲动消费买了pro2，很棒，作为效率工具的补充，预计服役两年</span><br><span class="line">腾讯的会就不多说了，壕，牛逼，想去上班...</span><br></pre></td></tr></table></figure></li><li><p>5）毕业季陪来玩的同学朋友逛了成都，去了<strong>九寨沟</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">化身导游，穿梭在成都大街小巷...</span><br><span class="line">和花哥一起去了黄龙和九寨沟，第一天寒冷高反加晕车，晚上到九寨沟酒店门口，一下车就吐了</span><br><span class="line">然而第二天游览完九寨景区，感觉再吐几次也值了</span><br><span class="line">不久之后九寨沟地震，一些景点震毁，可惜。</span><br><span class="line">立一个小flag：走栈道，徒步九寨沟景区 （有生之年系列）</span><br></pre></td></tr></table></figure></li><li><p>6）第一次完整参加一个<strong>项目</strong>（最近开始了第二个）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">目标：按时完成任务，针对提高能力</span><br><span class="line">想起OW里的一句话：团结协作，我们不可战胜</span><br></pre></td></tr></table></figure></li><li><p>7）开始写<strong>博客</strong>/更新<strong>GitHub</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">坚持就是胜利</span><br><span class="line">输出有质量的内容</span><br></pre></td></tr></table></figure></li><li><p>8）开始使用<strong>OneNote</strong>进行<strong>笔记</strong>整理</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">配合闪念胶囊，完善各种记录</span><br><span class="line">每天睡觉前喜欢瞎想，有几次凌晨睁开眼把想法都记录下来，然后立刻就睡着了...</span><br></pre></td></tr></table></figure></li><li><p>9）代表研究生队参加学院杯<strong>篮球</strong>赛拿到季军</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">新的队友，下学期比赛继续加油</span><br><span class="line">每天对着电脑坐太久了，脊椎颈椎都不好，需要多锻炼...</span><br></pre></td></tr></table></figure></li><li><p>10）和Chloe一起养了旺财（一只暹罗猫）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">猫是一种神奇的动物...</span><br></pre></td></tr></table></figure></li></ul><p>也许还有其他的故事，一时想不起来了，就留在记忆里，当做不期而遇的小惊喜吧.</p><h1 id="2018年的-FLAG"><a href="#2018年的-FLAG" class="headerlink" title="2018年的 FLAG"></a>2018年的 FLAG</h1><h2 id="读书"><a href="#读书" class="headerlink" title="读书"></a>读书</h2><p>  1.至少读完 <strong>26</strong> 本书，完成 <strong>10</strong> 篇以上读书笔记</p><h2 id="学英语"><a href="#学英语" class="headerlink" title="学英语"></a>学英语</h2><p>  1.完成半年口语练习（4-22结束），达到<strong>90分/90学习效率</strong>。</p><p>  2.学完<strong>新概念</strong>3、4册</p><p>  3.<strong>雅思</strong>考试 7+</p><h2 id="专业方向"><a href="#专业方向" class="headerlink" title="专业方向"></a>专业方向</h2><p>除了项目任务之外，完成以下：</p><p>  1.利用<strong>Python</strong>完成或复现<strong>两个项目</strong>（熟练各种操作，尤其是数据库相关）</p><p>  2.看完《Python for Data Analysis》和《Introduction to Data Mining》</p><p>  3.研一下学期（7月之前）参加一次<strong>kaggle</strong>比赛</p><p>  4.学习<strong>吴恩达</strong>deeplearning.ai课程</p><p>  5.完成一个<strong>微信小程序</strong>（闪念胶囊里的regular）</p><h2 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h2><h3 id="旅游-访学"><a href="#旅游-访学" class="headerlink" title="旅游/访学"></a>旅游/访学</h3><p>  1.<strong>阆中</strong> （拖了一年了…）</p><p>  2.<strong>云南/贵州/青海/陕西</strong>  四选一吧，随便立一个flag，走到哪算哪</p><p>  3.<strong>澳大利亚</strong></p><p>  4.<strong>新加坡</strong> 暑期实习</p><h3 id="生活习惯"><a href="#生活习惯" class="headerlink" title="生活习惯"></a>生活习惯</h3><p>  1.至少200天<strong>12点前睡觉</strong></p><p>  2.更新博客/微信公众号</p><p>  2.<strong>周期性任务</strong>晚饭前完成</p><p>  3.多和家人朋友交流</p><blockquote><p>就这些吧！新的一年，继续加油！</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;center&gt; 又到了说这句话的时候：新的一年，新的开始。&lt;/center&gt;
+    
+    </summary>
+    
+      <category term="life" scheme="http://yoursite.com/categories/life/"/>
+    
+    
+      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="新年计划" scheme="http://yoursite.com/tags/%E6%96%B0%E5%B9%B4%E8%AE%A1%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git&amp;Github 学习笔记</title>
+    <link href="http://yoursite.com/2017/10/03/Git-Github-%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://yoursite.com/2017/10/03/Git-Github-学习/</id>
+    <published>2017-10-03T04:46:39.000Z</published>
+    <updated>2017-10-04T12:15:14.311Z</updated>
+    
+    <content type="html"><![CDATA[<center>Git&amp;GitHub学习笔记</center><a id="more"></a><h2 id="1-1-省略"><a href="#1-1-省略" class="headerlink" title="1.1 省略"></a>1.1 省略</h2><h2 id="1-2"><a href="#1-2" class="headerlink" title="1.2"></a>1.2</h2><p>本地 &amp; 与他人合作</p><blockquote><p>创建github账号</p><p>安装git</p></blockquote><h2 id="1-3"><a href="#1-3" class="headerlink" title="1.3"></a>1.3</h2><p>config:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">user.name and user.email</span><br><span class="line">git config --global color.ui auto</span><br></pre></td></tr></table></figure></p><p>local &gt; global &gt; system</p><h2 id="1-4-init"><a href="#1-4-init" class="headerlink" title="1.4 init"></a>1.4 init</h2><p>初始化 (本地)</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">已存在的项目进行版本控制</span><br><span class="line">ls -l</span><br><span class="line">git init</span><br><span class="line">git status</span><br></pre></td></tr></table></figure><p>or<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">创建新项目</span><br><span class="line">git init &apos;项目名称&apos;</span><br></pre></td></tr></table></figure></p><p>初始(云端)</p><blockquote><p>Create a new repository</p></blockquote><h2 id="1-5-Commit"><a href="#1-5-Commit" class="headerlink" title="1.5 Commit"></a>1.5 Commit</h2><blockquote><p><strong>对改动进行提交</strong></p></blockquote><p>三种方法：</p><blockquote><p>1.命令行提交<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&gt; 相关命令(待实际测试)</span><br><span class="line">&gt; ls -la</span><br><span class="line">&gt; git status</span><br><span class="line">&gt; vi &apos;文件名&apos; (使用文本编辑器进行编辑)</span><br><span class="line">&gt; git add &apos;文件名&apos; (放入 *暂存区*)</span><br><span class="line">&gt; git commit -m &apos;描述信息&apos;</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></p></blockquote><blockquote><p>2.Github.Com</p><p>3.Github客户端</p></blockquote><h2 id="1-6-Diff"><a href="#1-6-Diff" class="headerlink" title="1.6 Diff"></a>1.6 Diff</h2><blockquote><p><strong>查询所做的修改</strong></p></blockquote><p>相关命令：</p><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; git diff</span><br><span class="line">&gt; # 查询未存档文件(工作树)的改动</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; git diff --staged</span><br><span class="line">&gt; # 暂存区 与 已提交历史文件 的区别</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; git diff HEAD</span><br><span class="line">&gt; # 工作树与最近一次提交相比较</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt; git diff --color-words</span><br><span class="line">&gt; git diff --word-diff</span><br><span class="line">&gt; git diff --stat</span><br><span class="line">&gt; # 标出修改位置/输出修改情况</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><h2 id="1-7-Log"><a href="#1-7-Log" class="headerlink" title="1.7 Log"></a>1.7 Log</h2><blockquote><p><strong>查询更新日志</strong></p></blockquote><p>相关命令：</p><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&gt; git log</span><br><span class="line">&gt; # 提交日志</span><br><span class="line">&gt; git log --oneline</span><br><span class="line">&gt; # 更新的简短概要(更新历程)</span><br><span class="line">&gt; git log --stat</span><br><span class="line">&gt; # 每次提交包含的文件及其改动</span><br><span class="line">&gt; git log --patch</span><br><span class="line">&gt; # 每次commit之间的改动(+/-,G/R)</span><br><span class="line">&gt; git log --graph</span><br><span class="line">&gt; # 图形化展示分支合并历史</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><p>以上命令可以组合使用，例如：</p><blockquote><p>git log –graph –all –oneline</p></blockquote><h2 id="1-8-Remove"><a href="#1-8-Remove" class="headerlink" title="1.8 Remove"></a>1.8 Remove</h2><blockquote><p><strong>清理冗余数据</strong></p></blockquote><p>相关命令:</p><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; git rm file</span><br><span class="line">&gt; # 删除文件 并在status中暂存删除状态</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; git add -u .</span><br><span class="line">&gt; # 遍历工作目录，暂存可被删除文件的状态</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; git rm --cached</span><br><span class="line">&gt; # 处理误提交文件</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><p>另外，也可<strong>直接删除</strong>文件，然后通过<strong>桌面客户端</strong>保存修改。</p><h2 id="1-9-Move"><a href="#1-9-Move" class="headerlink" title="1.9 Move"></a>1.9 Move</h2><blockquote><p><strong>移动文件</strong></p></blockquote><p>相关命令:</p><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; git mv 旧地址 新地址</span><br><span class="line">&gt; # 如未使用git指令进行mv，需要先rm，再add。</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; git add -A .</span><br><span class="line">&gt; # 发现当前目录所有新文件，并暂存保存状态</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt; git log --stat -- filename</span><br><span class="line">&gt; # 展示该文件的全部提交</span><br><span class="line">&gt; git log -M --follow</span><br><span class="line">&gt; # 添加参数，跟踪文件移动前的改动历史</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><p>相似度(默认50%)：如果超过阈值，则git会在移动中跟踪它，认为它是一个移动而不仅仅是一个删除和添加。</p></blockquote><h2 id="1-10-Ship-of-Theseus"><a href="#1-10-Ship-of-Theseus" class="headerlink" title="1.10 Ship of Theseus"></a>1.10 Ship of Theseus</h2><p>关于版本控制的哲学问题。</p><p>CVS/企业/git</p><p>版本控制系统之间的差异。</p><h2 id="1-11-Ignore"><a href="#1-11-Ignore" class="headerlink" title="1.11 Ignore"></a>1.11 Ignore</h2><blockquote><p><strong>避免提交某些文件</strong></p></blockquote><p>相关命令：</p><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt; # 创建 .gitignore 文件</span><br><span class="line">&gt; touch .gitignore</span><br><span class="line">&gt; git add .gitignore</span><br><span class="line">&gt; git commit -m&apos;描述信息&apos;</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&gt;# 在 .gitignore 文件中添加忽略路径/名称</span><br><span class="line">&gt; 例如：</span><br><span class="line">&gt; .sass-chche</span><br><span class="line">&gt; *.log</span><br><span class="line">&gt; tmp/</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; # 查询哪些文件被忽略了</span><br><span class="line">&gt; git ls-files --others --ignores --exclude -standard</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><h2 id="1-12-Branch"><a href="#1-12-Branch" class="headerlink" title="1.12 Branch"></a>1.12 Branch</h2><blockquote><p><strong>关于分支</strong></p></blockquote><p>相关命令：</p><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&gt; # 创建</span><br><span class="line">&gt; git branch name</span><br><span class="line">&gt; # 删除</span><br><span class="line">&gt; git branch -d neme</span><br><span class="line">&gt; # 切换分支</span><br><span class="line">&gt; git checkout name</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><h2 id="1-13-Checkout"><a href="#1-13-Checkout" class="headerlink" title="1.13 Checkout"></a>1.13 Checkout</h2><blockquote><p><strong>切换分支及其他功能</strong></p></blockquote><p>相关命令：</p><blockquote><p><code>git checkout name</code> 切换分支<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&gt; # 查看更详细的commit</span><br><span class="line">&gt; git checkout &apos;提交引用&apos;</span><br><span class="line">&gt; # 删除该文件最近一次commit内容</span><br><span class="line">&gt; git checkout --filename</span><br><span class="line">&gt; # 创建并切换到新分支</span><br><span class="line">&gt; git checkout -b name</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></p></blockquote><h2 id="1-14-Merge"><a href="#1-14-Merge" class="headerlink" title="1.14 Merge"></a>1.14 Merge</h2><blockquote><p><strong>汇聚多个分支，合并commit</strong></p></blockquote><p>相关命令：</p><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; # 将某支与当前分支合并</span><br><span class="line">&gt; git merge &apos;有commit的branch&apos;</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt; # 处理merge过程中的冲突</span><br><span class="line">&gt; 打开提示的冲突文件，然后查看由&gt;&gt;&gt; === &lt;&lt;&lt; 分隔表示出的冲突部分，手动解决冲突。</span><br><span class="line">&gt; 处理完毕后，使用 git add 添加到暂存区，再运行 git commit结束这一过程。</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; # 暂时不处理冲突(清空工作目录和暂存区)</span><br><span class="line">&gt; git merge --abort</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; # 汇聚某一分支所有commit</span><br><span class="line">&gt; git merge --squash &apos;目标分支&apos;</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; # 完成合并后，删除分支</span><br><span class="line">&gt; git branch -d &apos;分支name&apos;</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><h2 id="1-15-Network"><a href="#1-15-Network" class="headerlink" title="1.15 Network"></a>1.15 Network</h2><blockquote><p><strong>网络相关操作</strong></p></blockquote><p>相关命令：</p><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&gt; # 创建remote</span><br><span class="line">&gt; git remote add 目标名称 完整url</span><br><span class="line">&gt; # 修改remote信息</span><br><span class="line">&gt; git remote set-url 目标名称 完整url</span><br><span class="line">&gt; # 移除remote</span><br><span class="line">&gt; git remote rm 目标名称</span><br><span class="line">&gt; # 查询remote信息</span><br><span class="line">&gt; git remote -v</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt; git fetch 目标名称</span><br><span class="line">&gt; # fetch操作</span><br><span class="line">&gt; # 在GitHub.com上抓取信息，放在remote分支里。</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt; git pull 目标名称</span><br><span class="line">&gt; # pull操作</span><br><span class="line">&gt; # 将GitHub.com的更新拉去到本地，然后合并。</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt; git push 目标名称</span><br><span class="line">&gt; # push操作</span><br><span class="line">&gt; # 将本地项目推送到GitHub</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><h2 id="1-16-GUI"><a href="#1-16-GUI" class="headerlink" title="1.16 GUI"></a>1.16 GUI</h2><blockquote><p><strong>图形化用户界面</strong></p></blockquote><h2 id="1-17-GitHub介绍"><a href="#1-17-GitHub介绍" class="headerlink" title="1.17 GitHub介绍"></a>1.17 GitHub介绍</h2><blockquote><p><strong>GitHub相关特点的一些介绍</strong></p></blockquote><h2 id="1-18-Forking"><a href="#1-18-Forking" class="headerlink" title="1.18 Forking"></a>1.18 Forking</h2><blockquote><p><strong>将项目拷贝到仓库中，可安全的进行修改</strong></p></blockquote><h2 id="1-19-Pull-Requests"><a href="#1-19-Pull-Requests" class="headerlink" title="1.19 Pull Requests"></a>1.19 Pull Requests</h2><blockquote><p><strong>提交修改到其他代码库</strong></p><p><strong>开始编辑 让它更好</strong></p></blockquote><h2 id="1-20-Reset"><a href="#1-20-Reset" class="headerlink" title="1.20 Reset"></a>1.20 Reset</h2><blockquote><p><strong>对历史commit的操作方式</strong></p></blockquote><p>相关命令：</p><blockquote><p>git reset –mixed、soft、hard</p></blockquote><h2 id="1-21-Reflog"><a href="#1-21-Reflog" class="headerlink" title="1.21 Reflog"></a>1.21 Reflog</h2><blockquote><p><strong>追踪对修改内容的修改</strong></p></blockquote><p>相关命令：</p><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt; git reflog</span><br><span class="line">&gt; # 可查看修改历史，并可通过哈希串恢复回历史节点。</span><br><span class="line">&gt; git reset --hard 哈希串</span><br><span class="line">&gt; # 切换回历史节点</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><p>通过频繁提交，可保证代码安全，可随时进行恢复。</p></blockquote><h2 id="1-22-Rebase"><a href="#1-22-Rebase" class="headerlink" title="1.22 Rebase"></a>1.22 Rebase</h2><blockquote><p><strong>将分支进行重定位</strong><br>待实际操作</p></blockquote><h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>看着官方视频，整理了一下常用的操作命令。</p><p>视频点这里：<br><a href="https://www.nowcoder.com/courses/2#chapter-14" target="_blank" rel="noopener">GitHub&amp;Git入门基础</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;center&gt;Git&amp;amp;GitHub学习笔记&lt;/center&gt;
+    
+    </summary>
+    
+      <category term="Git&amp;GitHub" scheme="http://yoursite.com/categories/Git-GitHub/"/>
+    
+    
+      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
+    
+      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BeautifulSoup学习笔记</title>
+    <link href="http://yoursite.com/2017/09/20/BeautifulSoup%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2017/09/20/BeautifulSoup学习笔记/</id>
+    <published>2017-09-20T11:47:19.000Z</published>
+    <updated>2017-10-04T11:58:51.397Z</updated>
+    
+    <content type="html"><![CDATA[<center>BeautifulSoup学习笔记</center><a id="more"></a><h1 id="支持各种解析器"><a href="#支持各种解析器" class="headerlink" title="支持各种解析器"></a>支持各种解析器</h1><p><code>BeautifulSoup(markup, &quot;html.parser&quot;)</code><br><code>BeautifulSoup(markup, &quot;lxml&quot;)</code></p><p><code>BeautifulSoup(markup, [&quot;lxml&quot;, &quot;xml&quot;])</code><br><code>BeautifulSoup(markup, &quot;xml&quot;)</code></p><p><code>BeautifulSoup(markup, &quot;html5lib&quot;)</code></p><p>支持几种主要的解析器，包括标准库、HTML解析、XML解析及html5lib等，不同的解析器差别在于执行速度、容错能力以及是否依赖外部库。</p><h1 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">from bs4 import BeautifulSoup</span><br><span class="line"></span><br><span class="line">soup = BeautifulSoup(open(&quot;index.html&quot;))</span><br><span class="line"></span><br><span class="line">soup = BeautifulSoup(&quot;&lt;html&gt;data&lt;/html&gt;&quot;)</span><br></pre></td></tr></table></figure><p>采用Unicode编码，如不指定解析器则BS会选择最合适的解析器来解析文档。</p><h1 id="对象的种类"><a href="#对象的种类" class="headerlink" title="对象的种类"></a>对象的种类</h1><blockquote><p>Beautiful Soup将复杂HTML文档转换成一个复杂的树形结构,每个节点都是Python对象,所有对象可以归纳为4种: <strong>Tag</strong> , <strong>NavigableString</strong> , <strong>BeautifulSoup</strong> , <strong>Comment</strong> .</p></blockquote><h2 id="Tag"><a href="#Tag" class="headerlink" title="Tag"></a>Tag</h2><p>包括<em>Name</em>和<em>Attributes</em><br><img src="http://owks2feqx.bkt.clouddn.com/Tag.png" alt="Tag"></p><blockquote><p>每个tag都有自己的名字<br><code>tag.name</code></p></blockquote><blockquote><p>一个tag可以有很多个属性（所以是Attribute <em>s</em>）,其中<em>类（class）</em> 可以是多值属性</p></blockquote><p>如图中所示，则<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">tag.attrs</span><br><span class="line"># &#123;u&apos;class&apos;: u&apos;boldest&apos;&#125;</span><br><span class="line">或</span><br><span class="line">tag[&apos;class&apos;]</span><br><span class="line"># u&apos;boldest&apos;</span><br></pre></td></tr></table></figure></p><h2 id="可遍历字符串"><a href="#可遍历字符串" class="headerlink" title="可遍历字符串"></a>可遍历字符串</h2><p>NavigableString 类来包装tag中的字符串<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">tag.string</span><br><span class="line"># u&apos;Extremely bold&apos;</span><br><span class="line">type(tag.string)</span><br><span class="line"># &lt;class &apos;bs4.element.NavigableString&apos;&gt;</span><br></pre></td></tr></table></figure></p><h2 id="BeautifulSoup"><a href="#BeautifulSoup" class="headerlink" title="BeautifulSoup"></a>BeautifulSoup</h2><p>表示一个文档的全部内容,可当做tag对象。</p><h2 id="注释及特殊字符串"><a href="#注释及特殊字符串" class="headerlink" title="注释及特殊字符串"></a>注释及特殊字符串</h2><p>特殊格式，暂不考虑</p><h1 id="遍历文档树"><a href="#遍历文档树" class="headerlink" title="遍历文档树"></a>遍历文档树</h1><p><img src="http://owks2feqx.bkt.clouddn.com/soup%E6%93%8D%E4%BD%9C.png" alt="soup操作"></p><p>有针对子节点、父节点、兄弟节点、以及查询中前进和后退的相关操作，更多操作查看官方文档。</p><h1 id="搜索文档树"><a href="#搜索文档树" class="headerlink" title="搜索文档树"></a>搜索文档树</h1><p>主要应用find()和find_all(), 方法有：</p><ul><li>字符串<code>soup.find_all(&#39;b&#39;)</code></li><li>正则表达式  <code>soup.find_all(re.compile(&quot;^b&quot;))</code></li><li>列表 <code>soup.find_all([&quot;a&quot;, &quot;b&quot;])</code></li><li>True(匹配所有tag，不返回字符串节点) <code>soup.find_all(True)</code></li></ul><blockquote><p>针对爬虫的话，上面的内容对文档的解析和搜索已经够用了，后面还有修改文档树等内容，等在实际应用中用到了，继续更新到这里。</p></blockquote><blockquote><p>此次整理的内容没有太多实践的辅助，主要是跟着官方文档里面的例子应用了下函数，看了下输出结果，内容多是官方文档的提炼，有待丰富。</p></blockquote><blockquote><p>官方文档地址:<br><a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html#" title="官方文档" target="_blank" rel="noopener">BeautifulSoup 4.2.0文档</a></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;center&gt;BeautifulSoup学习笔记&lt;/center&gt;
+    
+    </summary>
+    
+      <category term="python学习笔记" scheme="http://yoursite.com/categories/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="爬虫" scheme="http://yoursite.com/tags/%E7%88%AC%E8%99%AB/"/>
+    
+      <category term="网页解析" scheme="http://yoursite.com/tags/%E7%BD%91%E9%A1%B5%E8%A7%A3%E6%9E%90/"/>
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="BeautifulSoup" scheme="http://yoursite.com/tags/BeautifulSoup/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>假期小记 &amp; 新学期学习计划</title>
+    <link href="http://yoursite.com/2017/09/19/%E5%81%87%E6%9C%9F%E5%B0%8F%E8%AE%B0%20&amp;%20%E6%96%B0%E5%AD%A6%E6%9C%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/"/>
+    <id>http://yoursite.com/2017/09/19/假期小记 &amp; 新学期学习计划/</id>
+    <published>2017-09-19T12:12:26.000Z</published>
+    <updated>2017-09-19T14:27:00.907Z</updated>
+    
+    <content type="html"><![CDATA[<center><strong>再次回到学校，看着田径场上军训的同学们，感慨很多。</strong></center><a id="more"></a><p>这个暑假比较短暂，在家里只待了不到半个月，期间还有各种事情需要处理，着实忙碌，八月底到家时很多读研的同学已经开学走了（暑假小分队的朋友大部分都读研了…），只和凯哥彪哥张哥聚了一次，吃了顿黄记煌，聊了聊天。</p><p>放假前在学校做项目时，看见老爸在家庭微信群里发的练摊撸串的照片，馋的直流口水。结果回家之前听说最近环保检查，烧烤城全部停业，要求整顿…虽然到家后还是有地方可以撸串，但是没停业的几家都是用电炉来烤的（无烟嘛，环保），没有了最吸引人的木炭的味道，不爽。</p><p>剩下的时间就是开车带着老妈去看家具地板等各种乱七八糟的装饰材料，还去了一趟济南的宜家（刚开业，人多到爆炸…）在这感叹一句，装修水深，劳心费神啊。</p><p>走之前办了各种证明材料，和老妈去派出所补办了我的《独生子女证》，看见上面写的“夫妻自愿只要一个孩子”真是无话可说，证上还有光荣俩字，只要一个孩子，有什么好光荣的？——再加上牺牲两个字倒还合适。</p><p>在机场大巴上等待出发，望着窗外发呆，才发现从回来那天开始好像每天都是蓝天白云，随时向北眺望都可以清晰的看见泰山，云飘的高的时候还能看见十八盘，这种体验已经很久没有过了。虽然环保检查导致撸串没有吃爽，但是看到了可能最近几年都没有见过的，干净的城市，也很开心。</p><p>回到成都以后，生活的节奏又快了起来，体检抽血注册办户口开会乱七八糟一堆事涌了过来，都顺利搞定，所以现在可以坐在实验室里敲下这上面这些字。</p><p>今天确定了课表，终于可以分配时间做自己的事情了，要学的想学的东西实在是太多了，就是时间不够多，精力不够用啊。</p><p>至于新学期的学习计划，就不在这写了，第一篇文章给自己定的任务都还没完成…（现在看来要是保持一个星期写一篇的话，只能是整理整理学习笔记了…）<br>还是先做再说吧，再多计划，不执行都只是个P。</p><p>最后一句，好好学英语！</p><blockquote><p>另外：<br>博客比较适合记录一些完整的思考或笔记（边想边写，越写越多…）</p></blockquote><blockquote><p>一些零碎的想法和感悟，放在了我的Telegram Channel（唯一的缺点是被墙了，而优点太多了说不完。）</p></blockquote><blockquote><p>地址：t.me/kylexu</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;center&gt;&lt;strong&gt;再次回到学校，看着田径场上军训的同学们，感慨很多。&lt;/strong&gt;&lt;/center&gt;
+    
+    </summary>
+    
+      <category term="life" scheme="http://yoursite.com/categories/life/"/>
+    
+    
+      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在哪里跌倒，就在哪里趴下</title>
+    <link href="http://yoursite.com/2017/08/15/%E5%9C%A8%E5%93%AA%E9%87%8C%E8%B7%8C%E5%80%92%EF%BC%8C%E5%B0%B1%E5%9C%A8%E5%93%AA%E9%87%8C%E8%B6%B4%E4%B8%8B/"/>
+    <id>http://yoursite.com/2017/08/15/在哪里跌倒，就在哪里趴下/</id>
+    <published>2017-08-15T13:37:49.000Z</published>
+    <updated>2017-08-17T07:51:24.994Z</updated>
+    
+    <content type="html"><![CDATA[<center><strong>‘HELLO WORLD’</strong></center><a id="more"></a><p>折腾了几天，终于把博客搭好了…</p><p>为了养成记录的习惯，在这里定几个小目标：</p><ul><li>每周至少发一篇博客，可以是学习的经验，也可以聊聊生活中的事情</li><li>定期对学到的知识进行总结，并制定相应的学习计划</li><li>多看代码…多敲代码…</li></ul><p><strong>本（下…）周任务</strong>：</p><blockquote><p>1.熟悉ATOM，配置插件</p><p>2.总结之前的爬虫项目(关于scrapy上手以及爬取过程中踩过的坑)</p><p>3.有时间写一下博客的搭建过程（Hexo + GitHub）</p><p>4.根据周五的会议决定开学之前的学习内容（python还需加强）</p></blockquote><p>OK，假期愉快。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;center&gt;&lt;strong&gt;‘HELLO WORLD’&lt;/strong&gt;&lt;/center&gt;
+    
+    </summary>
+    
+      <category term="life" scheme="http://yoursite.com/categories/life/"/>
+    
+    
+      <category term="hello world" scheme="http://yoursite.com/tags/hello-world/"/>
+    
+  </entry>
+  
+</feed>
