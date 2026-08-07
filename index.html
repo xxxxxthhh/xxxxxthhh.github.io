@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kyle Xu · 索引</title>
+<meta name="description" content="手册、看板与旧档的总索引 —— 7 本 HTML 手册、4 个工具看板,以及一个 2017–2020 的博客归档。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@400;700;900&display=swap" rel="stylesheet">
+<script>
+/* 同步执行,避免首帧闪烁。偏好存 cookie,不用 localStorage。 */
+(function(){
+  var m = document.cookie.match(/(?:^|; )kx-theme=([^;]*)/);
+  if (m && m[1] === 'light') document.documentElement.setAttribute('data-theme','light');
+})();
+</script>
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#0e1116; --surface:#151b23; --surface-2:#1b232e;
+  --line:#2a3542; --text:#ccd4de; --text-dim:#8b98a8; --text-faint:#61707f;
+  --accent:#7fb4e6;
+  --serif:"Noto Serif SC",serif; --sans:"Noto Sans SC",sans-serif; --mono:"IBM Plex Mono",monospace;
+}
+:root[data-theme="light"]{
+  color-scheme:light;
+  --bg:#f6f4ef; --surface:#fffdf9; --surface-2:#efece4;
+  --line:#ddd7ca; --text:#26303a; --text-dim:#66707c; --text-faint:#8b95a1;
+  --accent:#2f6de0;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--text);font-family:var(--serif);line-height:1.8;font-size:17px;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:820px;margin:0 auto;padding:0 24px 88px}
+a{color:inherit;text-decoration:none}
+
+/* ---------- 主题切换 ---------- */
+#theme-toggle{position:fixed;top:14px;right:14px;z-index:99;font-family:var(--mono);font-size:12px;
+  color:var(--text-dim);background:var(--surface);border:1px solid var(--line);border-radius:99px;
+  padding:6px 12px;cursor:pointer;line-height:1}
+#theme-toggle:hover{color:var(--text);border-color:var(--accent)}
+
+/* ---------- 页头 ---------- */
+header{padding:76px 0 34px;border-bottom:1px solid var(--line)}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.2em;color:var(--accent);text-transform:uppercase}
+h1{font-size:clamp(32px,6vw,48px);font-weight:900;line-height:1.25;margin:16px 0 0;letter-spacing:-.01em}
+h1 .en{display:block;font-family:var(--sans);font-size:clamp(13px,2.4vw,15px);font-weight:400;
+  letter-spacing:.16em;color:var(--text-faint);text-transform:uppercase;margin-top:12px}
+.lede{font-family:var(--sans);font-size:15.5px;color:var(--text-dim);max-width:58ch;margin-top:22px;line-height:1.85}
+
+/* ---------- 统计条 ---------- */
+.stats{display:flex;flex-wrap:wrap;gap:26px 40px;margin-top:30px}
+.stat .n{font-family:var(--mono);font-size:27px;font-weight:500;color:var(--text);line-height:1.1}
+.stat .l{font-family:var(--sans);font-size:11.5px;letter-spacing:.14em;color:var(--text-faint);
+  text-transform:uppercase;margin-top:6px}
+
+/* ---------- 分区 ---------- */
+section{margin-top:60px}
+.sec-head{display:flex;align-items:baseline;gap:12px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.sec-head h2{font-size:20px;font-weight:900;line-height:1.4}
+.sec-head .en{font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;color:var(--text-faint);text-transform:uppercase}
+.sec-head .count{margin-left:auto;font-family:var(--mono);font-size:12.5px;color:var(--text-faint)}
+.sec-note{font-family:var(--sans);font-size:13.5px;color:var(--text-faint);margin:12px 0 20px;line-height:1.75}
+
+/* ---------- 条目 ---------- */
+.item{display:block;position:relative;padding:22px 18px 20px 22px;border-bottom:1px solid var(--line);
+  transition:background .16s ease}
+.item::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--spine,var(--line));
+  opacity:.75;transition:opacity .16s ease}
+.item:hover{background:var(--surface)}
+.item:hover::before{opacity:1}
+.item:hover .title{color:var(--spine,var(--accent))}
+.item:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+
+.row1{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.num{font-family:var(--mono);font-size:12px;color:var(--text-faint);min-width:26px}
+.title{font-size:19px;font-weight:700;line-height:1.45;transition:color .16s ease}
+.title-en{font-family:var(--sans);font-size:12.5px;color:var(--text-faint);letter-spacing:.04em}
+.desc{font-family:var(--sans);font-size:14.5px;color:var(--text-dim);line-height:1.8;margin:9px 0 0;
+  padding-left:38px;max-width:64ch}
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin-top:12px;padding-left:38px}
+.tag{font-family:var(--mono);font-size:11.5px;color:var(--text-dim);background:var(--surface-2);
+  border:1px solid var(--line);border-radius:5px;padding:3px 8px;line-height:1.4;white-space:nowrap}
+.tag.spine{color:var(--spine);border-color:var(--spine)}
+.tag.warn{color:var(--text-faint);border-style:dashed}
+/* 日间用加深版 spine,保证暖纸背景上的对比度 */
+:root[data-theme="light"] .item::before{background:var(--spine-l,var(--spine,var(--line)))}
+:root[data-theme="light"] .item:hover .title{color:var(--spine-l,var(--spine,var(--accent)))}
+:root[data-theme="light"] .tag.spine{color:var(--spine-l,var(--spine));border-color:var(--spine-l,var(--spine))}
+.date{font-family:var(--mono);font-size:11.5px;color:var(--text-faint);margin-left:auto}
+
+/* ---------- 页脚 ---------- */
+footer{margin-top:64px;padding-top:26px;border-top:1px solid var(--line);
+  font-family:var(--sans);font-size:13px;color:var(--text-faint);line-height:2}
+footer a{color:var(--text-dim);border-bottom:1px solid var(--line)}
+footer a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+
+@media(max-width:560px){
+  body{font-size:16px}
+  header{padding-top:60px}
+  .desc,.meta{padding-left:0}
+  .stats{gap:20px 28px}
+  .date{margin-left:0;width:100%}
+  /* 序号与标题保持同行,标题内部换行;英文名另起一行 */
+  .num{min-width:22px}
+  .title{flex:1 1 0;min-width:0;font-size:18px}
+  .title-en{flex:0 0 100%}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">Index · 2026</div>
+  <h1>索引<span class="en">Everything in One Place</span></h1>
+  <p class="lede">这一页是入口。七本自己写的 HTML 手册、四个自用的看板工具,外加一个已经停更的旧博客 —— 之前散落在各自的地址上,彼此没有一条链接。现在都在这里。</p>
+  <div class="stats">
+    <div class="stat"><div class="n">7</div><div class="l">手册 Handbooks</div></div>
+    <div class="stat"><div class="n">4</div><div class="l">工具 Tools</div></div>
+    <div class="stat"><div class="n">132</div><div class="l">章节 Chapters</div></div>
+    <div class="stat"><div class="n">2017</div><div class="l">起始 Since</div></div>
+  </div>
+</header>
+
+<section>
+  <div class="sec-head">
+    <h2>手册</h2><span class="en">Handbooks</span><span class="count">7</span>
+  </div>
+  <p class="sec-note">长篇 HTML 电子书,每本一个独立站点。纯静态、可打印导出 PDF、多数支持暗色模式。</p>
+
+  <a class="item" style="--spine:#e8a33d;--spine-l:#9d6a14" href="https://xxxxxthhh.github.io/sa-guide/">
+    <div class="row1"><span class="num">01</span>
+      <span class="title">Situational Awareness 深度导读</span>
+      <span class="title-en">· 两年后的对账</span></div>
+    <p class="desc">Leopold Aschenbrenner 在 2024 年 6 月写下一份十年预言。两年过去,曲线有没有弯?本书逐章拆解论证链,并对每一条可检验的主张给出四档对账裁决 —— 包括作者本人下注 450 亿美元、又在 2026 年 7 月爆仓的那一注。原创分析,非译本。</p>
+    <div class="meta">
+      <span class="tag spine">29 条对账</span><span class="tag">9 章</span><span class="tag">4 附录</span>
+      <span class="date">更新 2026-08-02</span>
+    </div>
+  </a>
+
+  <a class="item" style="--spine:#2f6de0;--spine-l:#2559b8" href="https://xxxxxthhh.github.io/ai-systems-handbook/">
+    <div class="row1"><span class="num">02</span>
+      <span class="title">AI 系统工程手册</span>
+      <span class="title-en">AI Systems Engineering Handbook</span></div>
+    <p class="desc">面向应用层 AI 工程师:LLM 推理基础、服务与成本、RAG、Agent、微调与生产化。刻意做了一件事 —— 所有会过期的内容(工具名、版本号、参数、价格)一律隔离进附录,正文只留 18 个月后依然成立的判断。</p>
+    <div class="meta">
+      <span class="tag spine">6 Part</span><span class="tag">29 章</span><span class="tag">双语</span>
+      <span class="date">更新 2026-08-02</span>
+    </div>
+  </a>
+
+  <a class="item" style="--spine:#3fb5b7;--spine-l:#0c6f70" href="https://xxxxxthhh.github.io/probability-handbook/">
+    <div class="row1"><span class="num">03</span>
+      <span class="title">概率直觉手册</span>
+      <span class="title-en">Probability Intuition Handbook</span></div>
+    <p class="desc">人类的概率直觉进化自一个没有统计学的世界:它擅长「草丛动了,跑」,不擅长「阳性报告意味着什么」。这本书只做一件事 —— 把直觉最容易翻车的路口逐个走一遍:先猜一次,再用自然频率推出来,最后拖动实验看结论自己浮现。</p>
+    <div class="meta">
+      <span class="tag spine">20 个交互实验</span><span class="tag">20 章</span><span class="tag">2 附录</span><span class="tag">通识线 No.1</span>
+      <span class="date">更新 2026-08-03</span>
+    </div>
+  </a>
+
+  <a class="item" style="--spine:#d98f45;--spine-l:#a05f22" href="https://xxxxxthhh.github.io/coffee-handbook/">
+    <div class="row1"><span class="num">04</span>
+      <span class="title">咖啡风味科学手册</span>
+      <span class="title-en">Coffee &amp; Flavor Science Handbook</span></div>
+    <p class="desc">把「玄学参数」还原成可解释的物理化学机制。研磨度、水温、萃取率这些被反复念叨的变量,到底各自在动什么 —— 每章配一个可交互实验,拖动变量看风味往哪边走。</p>
+    <div class="meta">
+      <span class="tag spine">18 个交互</span><span class="tag">18 章</span><span class="tag">6 Part</span><span class="tag">通识线第二本</span>
+      <span class="date">更新 2026-08-03</span>
+    </div>
+  </a>
+
+  <a class="item" style="--spine:#4a7fe0;--spine-l:#2f6de0" href="https://xxxxxthhh.github.io/leetcode-handbook/">
+    <div class="row1"><span class="num">05</span>
+      <span class="title">算法面试阈值手册</span>
+      <span class="title-en">Algorithm Interview Threshold Handbook</span></div>
+    <p class="desc">不追求竞赛级精通,只解决三件事:5 分钟内认出模式、25 分钟写出能跑的代码、说清复杂度。中文讲解,术语与题名保留英文原文。配速查页与错题登记 —— 章节是平时用的,速查页才是考前用的。</p>
+    <div class="meta">
+      <span class="tag spine">18 模式</span><span class="tag">111 题</span><span class="tag">34 个模板</span>
+      <span class="date">更新 2026-08-05</span>
+    </div>
+  </a>
+
+  <a class="item" style="--spine:#d99a3d;--spine-l:#96682a" href="https://xxxxxthhh.github.io/options-handbook/">
+    <div class="row1"><span class="num">06</span>
+      <span class="title">期权策略手册</span>
+      <span class="title-en">The Options Strategy Handbook</span></div>
+    <p class="desc">从买第一张 Call 到运转一套 Wheel 系统。每个策略讲清楚三件事:它在表达什么观点、什么场景该用它、历史上它如何扩大了利润或减少了亏损。带可拖动的盈亏结构图。</p>
+    <div class="meta">
+      <span class="tag spine">15 章</span><span class="tag">2 附录</span><span class="tag">双语</span><span class="tag">交互</span>
+      <span class="date">更新 2026-08-02</span>
+    </div>
+  </a>
+
+  <a class="item" style="--spine:#d9a441;--spine-l:#8f6a18" href="https://xxxxxthhh.github.io/ccar-handbook/">
+    <div class="row1"><span class="num">07</span>
+      <span class="title">CCAR-F 备考手册</span>
+      <span class="title-en">Claude Certified Architect &ndash; Foundations</span></div>
+    <p class="desc">考试驱动、判断力优先的三层结构:先建立出题人思维(九条判断准则 + 干扰项分类学),再按 blueprint 权重过五个 domain,最后用六大官方场景贯穿推演。每道仿真题都带 distractor 解剖。</p>
+    <div class="meta">
+      <span class="tag spine">23 章</span><span class="tag">仿真题 208 道</span><span class="tag">全真模拟卷</span>
+      <span class="date">更新 2026-08-03</span>
+    </div>
+  </a>
+</section>
+
+<section>
+  <div class="sec-head">
+    <h2>工具与看板</h2><span class="en">Tools</span><span class="count">4</span>
+  </div>
+  <p class="sec-note">自用的小工具。数据靠定时任务刷新,不保证长期可用。</p>
+
+  <a class="item" style="--spine:#58a6ff;--spine-l:#2b6cb0" href="https://signal.randomnessk.com/">
+    <div class="row1"><span class="num">08</span>
+      <span class="title">SignalFeed</span>
+      <span class="title-en">技术信息流</span></div>
+    <p class="desc">从噪音中提取信号 —— 精选技术资讯的聚合流,自动抓取与筛选。挂在独立域名上。</p>
+    <div class="meta">
+      <span class="tag spine">signal.randomnessk.com</span><span class="tag">自动更新</span>
+      <span class="date">更新 2026-08-07</span>
+    </div>
+  </a>
+
+  <a class="item" style="--spine:#c9a227;--spine-l:#7d6412" href="https://xxxxxthhh.github.io/metal-track-dashboard/">
+    <div class="row1"><span class="num">09</span>
+      <span class="title">Metals &amp; ETF Dashboard</span>
+      <span class="title-en">贵金属与 ETF 行情看板</span></div>
+    <p class="desc">贵金属与相关 ETF 的行情追踪,数据由计划任务定时刷新后静态发布 —— 页面本身不打任何实时接口。</p>
+    <div class="meta">
+      <span class="tag spine">TypeScript</span><span class="tag">定时刷新</span>
+      <span class="date">更新 2026-08-06</span>
+    </div>
+  </a>
+
+  <a class="item" style="--spine:#bc8cff;--spine-l:#7a4fc0" href="https://xxxxxthhh.github.io/theta-dashboard/">
+    <div class="row1"><span class="num">10</span>
+      <span class="title">Theta Gang Dashboard</span>
+      <span class="title-en">期权卖方持仓看板</span></div>
+    <p class="desc">期权卖方策略的持仓与收益追踪。页面进去是一道口令锁 —— 前端校验,只是个门槛,不是保险箱。</p>
+    <div class="meta">
+      <span class="tag warn">需口令</span><span class="tag">私人用途</span>
+      <span class="date">更新 2026-08-06</span>
+    </div>
+  </a>
+
+  <a class="item" style="--spine:#4cc38a;--spine-l:#2f7d55" href="https://xxxxxthhh.github.io/travelView/">
+    <div class="row1"><span class="num">11</span>
+      <span class="title">关西旅行可视化</span>
+      <span class="title-en">travelView</span></div>
+    <p class="desc">行程时间轴 + 地图可视化,把一次关西行程拆成景点、交通、餐饮与住宿四类活动铺在时间线上。当前是演示版:左侧时间轴完全可用,地图需自备 Google Maps API key。</p>
+    <div class="meta">
+      <span class="tag warn">演示版</span><span class="tag">需 Maps API key</span>
+      <span class="date">更新 2025-11-19</span>
+    </div>
+  </a>
+</section>
+
+<section>
+  <div class="sec-head">
+    <h2>旧档</h2><span class="en">Archive</span><span class="count">1</span>
+  </div>
+  <p class="sec-note">这个地址原本的主人。</p>
+
+  <a class="item" href="https://github.com/xxxxxthhh/xxxxxthhh.github.io/tree/master">
+    <div class="row1"><span class="num">12</span>
+      <span class="title">Kyle's Notes</span>
+      <span class="title-en">旧博客 · 2017&ndash;2020</span></div>
+    <p class="desc">一个 Hexo 博客,13 篇学生时期的学习笔记与读书记录 —— 机器学习课程笔记、BeautifulSoup、Git、几篇读书随笔和新年计划。2020 年 1 月最后一次更新,站点已下线,内容保留在仓库的 master 与 Hexo 分支里。</p>
+    <div class="meta">
+      <span class="tag">13 篇</span><span class="tag">Hexo</span><span class="tag warn">已下线</span>
+      <span class="date">停更 2020-01-07</span>
+    </div>
+  </a>
+</section>
+
+<footer>
+  索引生成于 2026-08-07 · 更新日期取各仓库最后一次提交时间,不随本页自动刷新。<br>
+  全部源码在 <a href="https://github.com/xxxxxthhh?tab=repositories">github.com/xxxxxthhh</a> · 手册均为原创内容
+</footer>
+
+</div>
+
+<button id="theme-toggle" type="button" aria-label="切换主题">☀ 日间</button>
+<script>
+(function(){
+  var btn = document.getElementById('theme-toggle');
+  var root = document.documentElement;
+  function sync(){
+    btn.textContent = root.getAttribute('data-theme') === 'light' ? '☾ 夜间' : '☀ 日间';
+  }
+  btn.addEventListener('click', function(){
+    var light = root.getAttribute('data-theme') === 'light';
+    if (light) root.removeAttribute('data-theme'); else root.setAttribute('data-theme','light');
+    document.cookie = 'kx-theme=' + (light ? 'dark' : 'light') + ';path=/;max-age=31536000;samesite=lax';
+    sync();
+  });
+  sync();
+})();
+</script>
+</body>
+</html>
