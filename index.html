@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Kyle · 索引</title>
-<meta name="description" content="手册、看板与旧档的总索引 —— 7 本 HTML 手册、3 个工具看板,以及一个 2017–2020 的博客归档。">
+<meta name="description" content="手册、看板与旧档的总索引 —— 10 本 HTML 手册、3 个工具看板,以及一个 2017–2020 的博客归档。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@400;700;900&display=swap" rel="stylesheet">
@@ -89,7 +89,6 @@ section{margin-top:60px}
 :root[data-theme="light"] .item::before{background:var(--spine-l,var(--spine,var(--line)))}
 :root[data-theme="light"] .item:hover .title{color:var(--spine-l,var(--spine,var(--accent)))}
 :root[data-theme="light"] .tag.spine{color:var(--spine-l,var(--spine));border-color:var(--spine-l,var(--spine))}
-.date{font-family:var(--mono);font-size:11.5px;color:var(--text-faint);margin-left:auto}
 
 /* ---------- 页脚 ---------- */
 footer{margin-top:64px;padding-top:26px;border-top:1px solid var(--line);
@@ -102,7 +101,6 @@ footer a:hover{color:var(--accent);border-bottom-color:var(--accent)}
   header{padding-top:60px}
   .desc,.meta{padding-left:0}
   .stats{gap:20px 28px}
-  .date{margin-left:0;width:100%}
   /* 序号与标题保持同行,标题内部换行;英文名另起一行 */
   .num{min-width:22px}
   .title{flex:1 1 0;min-width:0;font-size:18px}
@@ -116,18 +114,18 @@ footer a:hover{color:var(--accent);border-bottom-color:var(--accent)}
 <header>
   <div class="eyebrow">Index · 2026</div>
   <h1>索引<span class="en">Everything in One Place</span></h1>
-  <p class="lede">这一页是入口。七本自己写的 HTML 手册、三个自用的看板工具,外加一个已经停更的旧博客 —— 之前散落在各自的地址上,彼此没有一条链接。现在都在这里。</p>
+  <p class="lede">这一页是入口。十本自己写的 HTML 手册、三个自用的看板工具,外加一个已经停更的旧博客 —— 之前散落在各自的地址上,彼此没有一条链接。现在都在这里。</p>
   <div class="stats">
-    <div class="stat"><div class="n">7</div><div class="l">手册 Handbooks</div></div>
+    <div class="stat"><div class="n">10</div><div class="l">手册 Handbooks</div></div>
     <div class="stat"><div class="n">3</div><div class="l">工具 Tools</div></div>
-    <div class="stat"><div class="n">132</div><div class="l">章节 Chapters</div></div>
+    <div class="stat"><div class="n">196</div><div class="l">章节 Chapters</div></div>
     <div class="stat"><div class="n">2017</div><div class="l">起始 Since</div></div>
   </div>
 </header>
 
 <section>
   <div class="sec-head">
-    <h2>手册</h2><span class="en">Handbooks</span><span class="count">7</span>
+    <h2>手册</h2><span class="en">Handbooks</span><span class="count">10</span>
   </div>
   <p class="sec-note">长篇 HTML 电子书,每本一个独立站点。纯静态、可打印导出 PDF、多数支持暗色模式。</p>
 
@@ -138,7 +136,6 @@ footer a:hover{color:var(--accent);border-bottom-color:var(--accent)}
     <p class="desc">Leopold Aschenbrenner 在 2024 年 6 月写下一份十年预言。两年过去,曲线有没有弯?本书逐章拆解论证链,并对每一条可检验的主张给出四档对账裁决 —— 包括作者本人下注 450 亿美元、又在 2026 年 7 月爆仓的那一注。原创分析,非译本。</p>
     <div class="meta">
       <span class="tag spine">29 条对账</span><span class="tag">9 章</span><span class="tag">4 附录</span>
-      <span class="date">更新 2026-08-02</span>
     </div>
   </a>
 
@@ -149,62 +146,86 @@ footer a:hover{color:var(--accent);border-bottom-color:var(--accent)}
     <p class="desc">面向应用层 AI 工程师:LLM 推理基础、服务与成本、RAG、Agent、微调与生产化。刻意做了一件事 —— 所有会过期的内容(工具名、版本号、参数、价格)一律隔离进附录,正文只留 18 个月后依然成立的判断。</p>
     <div class="meta">
       <span class="tag spine">6 Part</span><span class="tag">29 章</span><span class="tag">双语</span>
-      <span class="date">更新 2026-08-02</span>
+    </div>
+  </a>
+
+  <a class="item" style="--spine:#ff5c5c;--spine-l:#b3392f" href="https://xxxxxthhh.github.io/system-design-handbook/">
+    <div class="row1"><span class="num">03</span>
+      <span class="title">系统是被打出来的</span>
+      <span class="title-en">系统设计实战手册</span></div>
+    <p class="desc">系统不是设计出来的,是被流量打出来的。系统设计这门手艺的知识是陈述性的,能力却是经历性的 —— 你能一小时读完「缓存雪崩」的定义、成因和三种处方,却读不出凌晨两点看着命中率从 98% 掉到 2% 时那种想先重启服务的冲动,以及知道它是错的。这本书想当那个缺席的飞行模拟器。</p>
+    <div class="meta">
+      <span class="tag spine">6 个交互模拟器</span><span class="tag">16 章</span><span class="tag">17 张故障病历卡</span>
+    </div>
+  </a>
+
+  <a class="item" style="--spine:#4a7fe0;--spine-l:#2f6de0" href="https://xxxxxthhh.github.io/pi-handbook/">
+    <div class="row1"><span class="num">04</span>
+      <span class="title">Pi 源码解读手册</span>
+      <span class="title-en">Reading the Pi Agent Harness</span></div>
+    <p class="desc">对 earendil-works/pi 的第三方深入解读。上游自带 32945 行文档,所以本书不复述文档 —— 它做三件文档做不到的事:锚定行号读代码、区分「已发布」与「设计文档」、记录两者之间的漂移。</p>
+    <div class="meta">
+      <span class="tag spine">154 条引用</span><span class="tag">21 章</span><span class="tag">锚定 ac4ac9e</span>
     </div>
   </a>
 
   <a class="item" style="--spine:#3fb5b7;--spine-l:#0c6f70" href="https://xxxxxthhh.github.io/probability-handbook/">
-    <div class="row1"><span class="num">03</span>
+    <div class="row1"><span class="num">05</span>
       <span class="title">概率直觉手册</span>
       <span class="title-en">Probability Intuition Handbook</span></div>
     <p class="desc">人类的概率直觉进化自一个没有统计学的世界:它擅长「草丛动了,跑」,不擅长「阳性报告意味着什么」。这本书只做一件事 —— 把直觉最容易翻车的路口逐个走一遍:先猜一次,再用自然频率推出来,最后拖动实验看结论自己浮现。</p>
     <div class="meta">
       <span class="tag spine">20 个交互实验</span><span class="tag">20 章</span><span class="tag">2 附录</span><span class="tag">通识线 No.1</span>
-      <span class="date">更新 2026-08-03</span>
     </div>
   </a>
 
   <a class="item" style="--spine:#d98f45;--spine-l:#a05f22" href="https://xxxxxthhh.github.io/coffee-handbook/">
-    <div class="row1"><span class="num">04</span>
+    <div class="row1"><span class="num">06</span>
       <span class="title">咖啡风味科学手册</span>
       <span class="title-en">Coffee &amp; Flavor Science Handbook</span></div>
     <p class="desc">把「玄学参数」还原成可解释的物理化学机制。研磨度、水温、萃取率这些被反复念叨的变量,到底各自在动什么 —— 每章配一个可交互实验,拖动变量看风味往哪边走。</p>
     <div class="meta">
       <span class="tag spine">18 个交互</span><span class="tag">18 章</span><span class="tag">6 Part</span><span class="tag">通识线第二本</span>
-      <span class="date">更新 2026-08-03</span>
+    </div>
+  </a>
+
+  <a class="item" style="--spine:#e3b25a;--spine-l:#b07e1f" href="https://xxxxxthhh.github.io/human-body-handbook/">
+    <div class="row1"><span class="num">07</span>
+      <span class="title">人体手册</span>
+      <span class="title-en">The Human Body Handbook</span></div>
+    <p class="desc">以生命故事的视角写人体。四幕沿着一具身体的一生推进:受精、出生、青春期、壮年、中年,一直写到峰值之后的衰退与死亡的生理学。序章与终章落在四幕之外,一头一尾接住同一个母题 —— 你是一场接力。</p>
+    <div class="meta">
+      <span class="tag spine">序章 + 25 章 + 终章</span><span class="tag">四幕</span><span class="tag">深色默认</span>
     </div>
   </a>
 
   <a class="item" style="--spine:#4a7fe0;--spine-l:#2f6de0" href="https://xxxxxthhh.github.io/leetcode-handbook/">
-    <div class="row1"><span class="num">05</span>
+    <div class="row1"><span class="num">08</span>
       <span class="title">算法面试阈值手册</span>
       <span class="title-en">Algorithm Interview Threshold Handbook</span></div>
     <p class="desc">不追求竞赛级精通,只解决三件事:5 分钟内认出模式、25 分钟写出能跑的代码、说清复杂度。中文讲解,术语与题名保留英文原文。配速查页与错题登记 —— 章节是平时用的,速查页才是考前用的。</p>
     <div class="meta">
       <span class="tag spine">18 模式</span><span class="tag">111 题</span><span class="tag">34 个模板</span>
-      <span class="date">更新 2026-08-05</span>
     </div>
   </a>
 
   <a class="item" style="--spine:#d99a3d;--spine-l:#96682a" href="https://xxxxxthhh.github.io/options-handbook/">
-    <div class="row1"><span class="num">06</span>
+    <div class="row1"><span class="num">09</span>
       <span class="title">期权策略手册</span>
       <span class="title-en">The Options Strategy Handbook</span></div>
     <p class="desc">从买第一张 Call 到运转一套 Wheel 系统。每个策略讲清楚三件事:它在表达什么观点、什么场景该用它、历史上它如何扩大了利润或减少了亏损。带可拖动的盈亏结构图。</p>
     <div class="meta">
       <span class="tag spine">15 章</span><span class="tag">2 附录</span><span class="tag">双语</span><span class="tag">交互</span>
-      <span class="date">更新 2026-08-02</span>
     </div>
   </a>
 
   <a class="item" style="--spine:#d9a441;--spine-l:#8f6a18" href="https://xxxxxthhh.github.io/ccar-handbook/">
-    <div class="row1"><span class="num">07</span>
+    <div class="row1"><span class="num">10</span>
       <span class="title">CCAR-F 备考手册</span>
       <span class="title-en">Claude Certified Architect &ndash; Foundations</span></div>
     <p class="desc">考试驱动、判断力优先的三层结构:先建立出题人思维(九条判断准则 + 干扰项分类学),再按 blueprint 权重过五个 domain,最后用六大官方场景贯穿推演。每道仿真题都带 distractor 解剖。</p>
     <div class="meta">
-      <span class="tag spine">23 章</span><span class="tag">仿真题 208 道</span><span class="tag">全真模拟卷</span>
-      <span class="date">更新 2026-08-03</span>
+      <span class="tag spine">23 章</span><span class="tag">仿真题 213 道</span><span class="tag">全真模拟卷</span>
     </div>
   </a>
 </section>
@@ -216,35 +237,32 @@ footer a:hover{color:var(--accent);border-bottom-color:var(--accent)}
   <p class="sec-note">自用的小工具。数据靠定时任务刷新,不保证长期可用。</p>
 
   <a class="item" style="--spine:#58a6ff;--spine-l:#2b6cb0" href="https://signal.randomnessk.com/">
-    <div class="row1"><span class="num">08</span>
+    <div class="row1"><span class="num">11</span>
       <span class="title">SignalFeed</span>
       <span class="title-en">技术信息流</span></div>
     <p class="desc">从噪音中提取信号 —— 精选技术资讯的聚合流,自动抓取与筛选。挂在独立域名上。</p>
     <div class="meta">
       <span class="tag spine">signal.randomnessk.com</span><span class="tag">自动更新</span>
-      <span class="date">更新 2026-08-07</span>
     </div>
   </a>
 
   <a class="item" style="--spine:#c9a227;--spine-l:#7d6412" href="https://xxxxxthhh.github.io/metal-track-dashboard/">
-    <div class="row1"><span class="num">09</span>
+    <div class="row1"><span class="num">12</span>
       <span class="title">Metals &amp; ETF Dashboard</span>
       <span class="title-en">贵金属与 ETF 行情看板</span></div>
     <p class="desc">贵金属与相关 ETF 的行情追踪,数据由计划任务定时刷新后静态发布。</p>
     <div class="meta">
       <span class="tag spine">TypeScript</span><span class="tag">定时刷新</span>
-      <span class="date">更新 2026-08-06</span>
     </div>
   </a>
 
   <a class="item" style="--spine:#4cc38a;--spine-l:#2f7d55" href="https://xxxxxthhh.github.io/travelView/">
-    <div class="row1"><span class="num">10</span>
+    <div class="row1"><span class="num">13</span>
       <span class="title">关西旅行可视化</span>
       <span class="title-en">travelView</span></div>
     <p class="desc">行程时间轴 + 地图可视化,把一次关西行程拆成景点、交通、餐饮与住宿四类活动铺在时间线上。当前是演示版:左侧时间轴完全可用,地图需自备 Google Maps API key。</p>
     <div class="meta">
       <span class="tag warn">演示版</span><span class="tag">需 Maps API key</span>
-      <span class="date">更新 2025-11-19</span>
     </div>
   </a>
 </section>
@@ -256,19 +274,18 @@ footer a:hover{color:var(--accent);border-bottom-color:var(--accent)}
   <p class="sec-note">这个地址原本的主人。</p>
 
   <a class="item" href="https://github.com/xxxxxthhh/xxxxxthhh.github.io/tree/master">
-    <div class="row1"><span class="num">11</span>
+    <div class="row1"><span class="num">14</span>
       <span class="title">Kyle's Notes</span>
       <span class="title-en">旧博客 · 2017&ndash;2020</span></div>
     <p class="desc">一个 Hexo 博客,13 篇学生时期的学习笔记与读书记录 —— 机器学习课程笔记、BeautifulSoup、Git、几篇读书随笔和新年计划。2020 年 1 月最后一次更新,站点已下线,内容保留在仓库的 master 与 Hexo 分支里。</p>
     <div class="meta">
       <span class="tag">13 篇</span><span class="tag">Hexo</span><span class="tag warn">已下线</span>
-      <span class="date">停更 2020-01-07</span>
     </div>
   </a>
 </section>
 
 <footer>
-  索引生成于 2026-08-07 · 更新日期取各仓库最后一次提交时间,不随本页自动刷新。<br>
+  本页只回答「有什么」,不记录「何时改过」—— 各站的最新状态以站点自身为准。<br>
   全部源码在 <a href="https://github.com/xxxxxthhh?tab=repositories">github.com/xxxxxthhh</a> · 手册均为原创内容
 </footer>
 
